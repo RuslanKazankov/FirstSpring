@@ -18,7 +18,6 @@ public class Main {
         abc.registerNext(abd);
         abd.registerNext(abe);
         abe.registerNext(abf);
-        
         @SuppressWarnings("resource")
         Scanner in = new Scanner(System.in);
         int expenseReportAmount;
