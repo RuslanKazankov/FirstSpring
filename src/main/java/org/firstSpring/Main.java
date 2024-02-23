@@ -26,6 +26,7 @@ public class Main {
         expenseReportAmount = in.nextInt();
         IExpenseReport expense1 = (IExpenseReport) context.getBean("expenseReport",expenseReportAmount);
 
+        
         ApprovalResponse response = abc.approve(expense);
         ApprovalResponse response1 = abc.approve(expense1);
 
